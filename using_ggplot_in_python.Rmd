@@ -1,10 +1,6 @@
----
-title: "using_ggplot_in_python"
-author: "Junyi Yao(jy3178)"
-date: "11/5/2021"
----
+# Using ggplot in python
 
-## Motivation
+Junyi Yao
 
 I am new to R, but I like the high quality plots made by ggplot2. I used to use python packages(numpy, pandas) to process data and use seaborn to make plots. In my personal opinion, numpy and pandas are easier to use than tidyverse. However, ggplot2 makes better plots.
 
