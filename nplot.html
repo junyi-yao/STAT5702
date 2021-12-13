@@ -1,0 +1,383 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <link rel='stylesheet' href='C:/RFolder/R/win-library/4.1/rCharts/libraries/nvd3/css/nv.d3.css'>
+    
+    <link rel='stylesheet' href='C:/RFolder/R/win-library/4.1/rCharts/libraries/nvd3/css/rNVD3.css'>
+    
+    
+    
+    <script src='C:/RFolder/R/win-library/4.1/rCharts/libraries/nvd3/js/jquery-1.8.2.min.js' type='text/javascript'></script>
+    
+    <script src='C:/RFolder/R/win-library/4.1/rCharts/libraries/nvd3/js/d3.v3.min.js' type='text/javascript'></script>
+    
+    <script src='C:/RFolder/R/win-library/4.1/rCharts/libraries/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    
+    <script src='C:/RFolder/R/win-library/4.1/rCharts/libraries/nvd3/js/fisheye.js' type='text/javascript'></script>
+    
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart476028776fa' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart476028776fa()
+    });
+    function drawchart476028776fa(){  
+      var opts = {
+ "dom": "chart476028776fa",
+"width":      800,
+"height":      400,
+"x": "Year",
+"y": "ratio",
+"group": "Personal.Income",
+"type": "multiBarChart",
+"id": "chart476028776fa" 
+},
+        data = [
+ {
+ "Year": "2008",
+"Personal.Income": "No Income",
+"ratio": 0.1635961518529 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.08736062716128 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.1000063696068 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.1521987769601 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.1133109329213 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.1252050994544 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1264214305232 
+},
+{
+ "Year": "2008",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1319006115199 
+},
+{
+ "Year": "2009",
+"Personal.Income": "No Income",
+"ratio": 0.1577255933057 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.09127193218483 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.09705467462109 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.1563201832846 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.1134624574984 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.120816855481 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1264806620263 
+},
+{
+ "Year": "2009",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1368676415981 
+},
+{
+ "Year": "2010",
+"Personal.Income": "No Income",
+"ratio": 0.1684429248657 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.09121814848454 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.1000485057424 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.1556967839132 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.1181545331221 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.1133529217598 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1331672851945 
+},
+{
+ "Year": "2010",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1199188969177 
+},
+{
+ "Year": "2011",
+"Personal.Income": "No Income",
+"ratio": 0.1830964980673 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.0878670569845 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.1047746605239 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.1541976226292 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.1098896660423 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.1144969044283 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1285747306857 
+},
+{
+ "Year": "2011",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1171028606387 
+},
+{
+ "Year": "2012",
+"Personal.Income": "No Income",
+"ratio":  0.18422381297 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.09391025265336 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.09777245148854 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.157448139226 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.108100107997 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.114727640764 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1340110315255 
+},
+{
+ "Year": "2012",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1098065633756 
+},
+{
+ "Year": "2013",
+"Personal.Income": "No Income",
+"ratio": 0.1767996635498 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.08553041185551 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.1005568228103 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.1558650194195 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.1100050434564 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.1141767351242 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1110133763758 
+},
+{
+ "Year": "2013",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1460529274086 
+},
+{
+ "Year": "2014",
+"Personal.Income": "No Income",
+"ratio": 0.1840299658982 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[5k,10k)",
+"ratio": 0.08531958699604 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[10k,15k)",
+"ratio": 0.09350407734218 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[15k,25k)",
+"ratio": 0.1510062427064 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[50k,75k)",
+"ratio": 0.1112782278387 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[25k,35k)",
+"ratio": 0.1127558747478 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[35k,50k)",
+"ratio": 0.1161971018585 
+},
+{
+ "Year": "2014",
+"Personal.Income": "[75k,inf)",
+"ratio": 0.1459089226121 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+
+        
+        
+        
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
