@@ -1,2 +1,3 @@
-x = branch2
+
+x = branch1
 y = 1
